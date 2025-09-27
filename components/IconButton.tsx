@@ -12,7 +12,7 @@ interface IconButtonProps {
 const IconButton = ({icon , pulsar , enlace, color}:IconButtonProps) => {
   return (
     
-    <Pressable onPress={pulsar} className='rounded-xl p-3 border-b-4 border-r-2 border-gray-600 bg-gray-100'>
+    <Pressable onPress={pulsar} className='rounded-xl p-3 border-b-4 border-r-2 border-gray-700 bg-gray-100'>
         <Ionicons name={icon as any} size={24} color={color} />
         
     </Pressable>

@@ -6,13 +6,13 @@ export default function RootLayout() {
       <Stack.Screen
         name="index"
         options={{
-          title: "Bonjour",
+          title: "Bonjour",// texto
           headerStyle: {
             backgroundColor: "#8C0000",//color del fondo del encabezado.
           },
           headerTintColor: "#fff",//color de las letras
           headerTitleStyle: {
-            fontWeight: "bold",//tipo de letra del encabezado
+            fontWeight: "bold",//tipo de letra del texto del encabezado
           },
           
         }}
