@@ -21,7 +21,7 @@ function selectVariant(variante:string){
     case "subtitle":
       return "font-bold text-gray-200"
     case "subtitle2":
-      return "text-red-700 text-center"
+      return " font-bold text-red-700 text-center"
     default:
       return "text-base font-normal text-gray-700"    
   }

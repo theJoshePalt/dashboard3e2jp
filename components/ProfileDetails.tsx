@@ -19,10 +19,10 @@ const ProfileDetails = () => {
         <CustomText variant="subtitle" value="Estudiante"/>
       </View>
       <View className="flex-row gap-4 mt-9 p-4 items-strech">
-        <IconButton icon="logo-instagram" pulsar={() => console.log("Instagram")} color="#8C0000" ></IconButton>
-        <IconButton icon="logo-whatsapp" pulsar={() => console.log("Whatsapp")} color="#8C0000" ></IconButton>
-        <IconButton icon='logo-x' pulsar={()=>console.log("X")} color='#8C0000' ></IconButton>
-        <IconButton icon='logo-pinterest' pulsar={()=>console.log("Pinterest")} color='#8C0000' ></IconButton>
+        <IconButton icon="logo-instagram" pulsar={() => console.log("Instagram")} color="#D10000" ></IconButton>
+        <IconButton icon="logo-whatsapp" pulsar={() => console.log("Whatsapp")} color="#D10000" ></IconButton>
+        <IconButton icon='logo-x' pulsar={()=>console.log("X")} color='#D10000' ></IconButton>
+        <IconButton icon='logo-pinterest' pulsar={()=>console.log("Pinterest")} color='#D10000' ></IconButton>
       </View>
 
       
